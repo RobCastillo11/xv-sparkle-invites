@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap');
 
 @layer base {
   :root {
@@ -73,9 +73,7 @@
     --cream: 30 10% 10%;
     --cream-dark: 30 10% 15%;
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
@@ -94,55 +92,89 @@
   .font-display {
     font-family: 'Playfair Display', serif;
   }
+
   .font-elegant {
     font-family: 'Cormorant Garamond', serif;
   }
+
   .font-body {
     font-family: 'Montserrat', sans-serif;
   }
+
   .text-gold {
     color: hsl(var(--gold));
   }
+
   .bg-gold {
     background-color: hsl(var(--gold));
   }
+
   .border-gold {
     border-color: hsl(var(--gold));
   }
+
   .text-sky-accent {
     color: hsl(var(--sky));
   }
+
   .bg-sky-accent {
     background-color: hsl(var(--sky));
   }
+
   .bg-cream {
     background-color: hsl(var(--cream));
   }
+
   .bg-cream-dark {
     background-color: hsl(var(--cream-dark));
   }
+
   .gold-gradient {
-    background: linear-gradient(135deg, hsl(var(--gold-dark)), hsl(var(--gold)), hsl(var(--gold-light)));
+    background: linear-gradient(
+      135deg,
+      hsl(var(--gold-dark)),
+      hsl(var(--gold)),
+      hsl(var(--gold-light))
+    );
   }
+
   .gold-text-gradient {
-    background: linear-gradient(135deg, hsl(var(--gold-dark)), hsl(var(--gold)), hsl(var(--gold-light)));
+    background: linear-gradient(
+      135deg,
+      hsl(var(--gold-dark)),
+      hsl(var(--gold)),
+      hsl(var(--gold-light))
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
   .gold-border-gradient {
-    border-image: linear-gradient(135deg, hsl(var(--gold-dark)), hsl(var(--gold)), hsl(var(--gold-light))) 1;
+    border-image: linear-gradient(
+      135deg,
+      hsl(var(--gold-dark)),
+      hsl(var(--gold)),
+      hsl(var(--gold-light))
+    ) 1;
   }
+
   .ornament-divider {
     display: flex;
     align-items: center;
     gap: 1rem;
   }
+
   .ornament-divider::before,
   .ornament-divider::after {
     content: '';
     flex: 1;
     height: 1px;
-    background: linear-gradient(90deg, transparent, hsl(var(--gold)), transparent);
+    background: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--gold)),
+      transparent
+    );
   }
 }

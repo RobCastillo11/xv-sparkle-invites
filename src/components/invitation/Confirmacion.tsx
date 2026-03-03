@@ -9,7 +9,7 @@ const Confirmacion = () => {
   const [confirmed, setConfirmed] = useState(false);
 
   return (
-    <section ref={ref} className="py-20 px-6 bg-cream-dark">
+    <section ref={ref} className="py-20 px-6 bg-cream">
       <motion.div
         className="max-w-lg mx-auto text-center"
         initial={{ opacity: 0, y: 40 }}

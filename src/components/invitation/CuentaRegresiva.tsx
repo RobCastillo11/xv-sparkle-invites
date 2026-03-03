@@ -3,7 +3,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { motion } from "framer-motion";
 import OrnamentDivider from "./OrnamentDivider";
 
-const TARGET_DATE = new Date("2025-04-25T13:00:00-06:00").getTime();
+const TARGET_DATE = new Date("2026-04-25T13:00:00-06:00").getTime();
 
 function getTimeLeft() {
   const now = Date.now();

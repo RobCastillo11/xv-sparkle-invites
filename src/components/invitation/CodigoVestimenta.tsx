@@ -7,7 +7,7 @@ const CodigoVestimenta = () => {
   const { ref, isVisible } = useScrollReveal();
 
   return (
-    <section ref={ref} className="py-20 px-6 bg-cream-dark">
+    <section ref={ref} className="py-20 px-6 bg-cream">
       <motion.div
         className="max-w-lg mx-auto text-center"
         initial={{ opacity: 0, y: 40 }}
@@ -21,7 +21,7 @@ const CodigoVestimenta = () => {
         <OrnamentDivider />
 
         <div className="mt-8">
-          <p className="font-display text-3xl text-foreground">Semi-formal</p>
+          <p className="font-display text-3xl text-foreground">Formal</p>
           <p className="font-body text-sm text-muted-foreground mt-3">
             Te invitamos a vestir elegante para esta ocasión especial
           </p>

@@ -25,11 +25,11 @@ const MencionesEspeciales = () => {
             <p className="font-body text-xs uppercase tracking-[0.2em] text-sky-accent mb-3">
               Mis Padres
             </p>
-            <p className="font-elegant text-xl sm:text-2xl text-foreground">
+            <p className="font-elegantScript text-3xl sm:text-4xl text-foreground leading-relaxed">
               Francisco Ledezma Rocha
             </p>
             <Heart className="w-4 h-4 text-gold mx-auto my-2" />
-            <p className="font-elegant text-xl sm:text-2xl text-foreground">
+            <p className="font-elegantScript text-3xl sm:text-4xl text-foreground leading-relaxed">
               Mariela Sánchez García
             </p>
           </div>
@@ -39,11 +39,11 @@ const MencionesEspeciales = () => {
             <p className="font-body text-xs uppercase tracking-[0.2em] text-sky-accent mb-3">
               Mis Padrinos
             </p>
-            <p className="font-elegant text-xl sm:text-2xl text-foreground">
+            <p className="font-elegantScript text-3xl sm:text-4xl text-foreground leading-relaxed">
               Maribel Molina Molina
             </p>
             <Heart className="w-4 h-4 text-gold mx-auto my-2" />
-            <p className="font-elegant text-xl sm:text-2xl text-foreground">
+            <p className="font-elegantScript text-3xl sm:text-4xl text-foreground leading-relaxed">
               Nicolás Ledezma Campos
             </p>
           </div>

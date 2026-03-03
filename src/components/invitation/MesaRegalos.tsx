@@ -7,7 +7,7 @@ const MesaRegalos = () => {
   const { ref, isVisible } = useScrollReveal();
 
   return (
-    <section ref={ref} className="py-20 px-6 bg-cream">
+    <section ref={ref} className="py-20 px-6 bg-cream-dark">
       <motion.div
         className="max-w-lg mx-auto text-center"
         initial={{ opacity: 0, y: 40 }}
@@ -24,16 +24,56 @@ const MesaRegalos = () => {
         </p>
 
         <div className="grid grid-cols-2 gap-4 mt-8">
+          
+          {/* Regalos */}
           <div className="flex flex-col items-center p-6 border border-gold/30 rounded-lg bg-cream-dark/50">
-            <Gift className="w-8 h-8 text-gold mb-3" />
+            <motion.div
+              animate={
+                isVisible
+                  ? { y: [0, -6, 0], scale: [1, 1.05, 1] }
+                  : {}
+              }
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+            >
+              <Gift className="w-8 h-8 text-gold mb-3" />
+            </motion.div>
+
             <p className="font-display text-lg text-foreground">Regalos</p>
-            <p className="font-body text-xs text-muted-foreground mt-1">Opcionales</p>
+            <p className="font-body text-xs text-muted-foreground mt-1">
+              Opcionales
+            </p>
           </div>
+
+          {/* Lluvia de sobres */}
           <div className="flex flex-col items-center p-6 border border-gold/30 rounded-lg bg-cream-dark/50">
-            <Mail className="w-8 h-8 text-gold mb-3" />
-            <p className="font-display text-lg text-foreground">Lluvia de</p>
-            <p className="font-display text-lg text-foreground">Sobres</p>
+            <motion.div
+              animate={
+                isVisible
+                  ? { y: [0, -6, 0], scale: [1, 1.05, 1] }
+                  : {}
+              }
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                ease: "easeInOut",
+                delay: 1.5, // intercalado
+              }}
+            >
+              <Mail className="w-8 h-8 text-gold mb-3" />
+            </motion.div>
+
+            <p className="font-display text-lg text-foreground">
+              Lluvia de
+            </p>
+            <p className="font-display text-lg text-foreground">
+              Sobres
+            </p>
           </div>
+
         </div>
       </motion.div>
     </section>

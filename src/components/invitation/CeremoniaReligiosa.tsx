@@ -7,7 +7,7 @@ const CeremoniaReligiosa = () => {
   const { ref, isVisible } = useScrollReveal();
 
   return (
-    <section ref={ref} className="py-20 px-6 bg-cream-dark">
+    <section ref={ref} className="py-20 px-6 bg-cream">
       <motion.div
         className="max-w-lg mx-auto text-center"
         initial={{ opacity: 0, y: 40 }}
@@ -34,7 +34,7 @@ const CeremoniaReligiosa = () => {
           </p>
 
           <a
-            href="https://maps.google.com"
+            href="https://maps.app.goo.gl/z5wp1augzHPBvFbb7"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-4 px-6 py-3 border border-gold/50 rounded-full text-gold font-body text-sm uppercase tracking-wider hover:bg-gold hover:text-primary-foreground transition-colors"
