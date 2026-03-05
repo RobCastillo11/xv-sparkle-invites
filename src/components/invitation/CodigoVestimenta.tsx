@@ -30,24 +30,16 @@ const DressCode = () => {
           Te invitamos a vestir elegante para esta ocasión especial
         </p>
 
-        {/* Color reservado */}
-        <div className="mt-10 max-w-xs mx-auto border border-gold/30 rounded-xl p-6 bg-cream-dark/60 backdrop-blur-sm shadow-sm">
+        {/* Aviso color reservado */}
+        <div className="mt-10 max-w-sm mx-auto border border-gold/30 rounded-xl p-6 bg-cream-dark/60 backdrop-blur-sm shadow-sm">
 
-          <p className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground mb-4">
-            Color reservado
-          </p>
-
-          {/* Muestra del color */}
-          <div className="flex flex-col items-center">
-            <div className="w-16 h-16 rounded-full bg-[#87CEEB] border-2 border-gold/40 shadow-md"></div>
-
-            <p className="font-elegant text-lg text-foreground mt-3">
-              Azul cielo
-            </p>
+          {/* muestra del color */}
+          <div className="flex justify-center mb-4">
+            <div className="w-14 h-14 rounded-full bg-[#87CEEB] border-2 border-gold/40 shadow-md"></div>
           </div>
 
-          <p className="font-body text-xs text-muted-foreground mt-4">
-            Este color está reservado para el vestido de la quinceañera.
+          <p className="font-body text-sm text-muted-foreground mt-3">
+            Agradecemos a nuestras invitadas elegir otro color
           </p>
 
         </div>

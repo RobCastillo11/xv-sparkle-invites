@@ -57,7 +57,7 @@ const Galeria = () => {
         <section ref={ref} className="py-20 px-6 bg-cream-dark overflow-hidden">
             <div className="max-w-6xl mx-auto text-center">
                 <h2 className="font-display text-2xl sm:text-3xl text-gold mb-2">
-                    Momentos Especiales
+                    Mi Galería
                 </h2>
 
                 <OrnamentDivider />
