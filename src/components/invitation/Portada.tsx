@@ -30,7 +30,7 @@ const Portada = () => {
       <div className="relative z-10 text-center px-6 py-6 backdrop-blur-[2px] bg-white/10 rounded-xl">
 
         <motion.p
-          className="text-sky-900 font-body text-sm font-bold tracking-[0.35em] uppercase mb-4 drop-shadow-[0_2px_6px_rgba(255,255,255,0.6)]"
+          className="text-sky-500 font-body text-sm font-bold tracking-[0.35em] uppercase mb-4 drop-shadow-[0_2px_6px_rgba(255,255,255,0.6)]"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
