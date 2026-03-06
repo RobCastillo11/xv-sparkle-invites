@@ -30,6 +30,10 @@ const DressCode = () => {
           Te invitamos a vestir elegante para esta ocasión especial
         </p>
 
+        <p className="font-body text-sm text-muted-foreground mt-2">
+          Color Azul reservado
+        </p>
+
         {/* Aviso color reservado */}
         <div className="mt-10 max-w-sm mx-auto border border-gold/30 rounded-xl p-6 bg-cream-dark/60 backdrop-blur-sm shadow-sm">
 
