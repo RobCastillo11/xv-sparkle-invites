@@ -32,18 +32,6 @@ const Index = () => {
         <p className="font-body text-xs text-muted-foreground mt-1">
           Mis XV Años · 25 de Abril, 2026
         </p>
-
-        {/* Enlace a Facebook */}
-        <div className="mt-4">
-          <a
-            href="https://www.facebook.com/profile.php?id=61578280057595"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gold hover:text-gold/70 transition-colors text-sm"
-          >
-            Síguenos en Facebook
-          </a>
-        </div>
       </footer>
     </main>
   );
